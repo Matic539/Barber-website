@@ -1,0 +1,42 @@
+# Dependencias de Node
+/node_modules
+
+# Archivos de bloqueo de paquetes
+/pnpm-lock.yaml
+/yarn.lock
+/package-lock.json
+
+# Directorios de salida
+dist
+.built
+build
+.surge
+
+# Directorios y archivos de Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Logs
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración de Yarn
+.yarnrc.yml
+.yarnrc
+.yarn-integrity
+
+# Firebase config
+.firebaserc
+firebase.json
+src/firebaseConfig.js
+
+# Firebase cache and config files
+.firebase/
+
+# Otras configuraciones específicas de tu proyecto
+.eslintcache

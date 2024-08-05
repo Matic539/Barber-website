@@ -1,0 +1,49 @@
+.services-container {
+    padding: 3rem 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.services-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.service-item {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+.service-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 1rem;
+}
+
+.service-item p {
+    color: #555;
+    font-size: 1rem;
+    padding: 0 1rem 1rem;
+}

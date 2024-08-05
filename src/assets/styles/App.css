@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        display: none;
+    }
+    
+    .logo-img {
+        display: none;
+    }
+
+    .welcome-container {
+        justify-content: center;
+    }
+
+    /* .main-home {
+        padding-top: 54px;
+    } */
+}

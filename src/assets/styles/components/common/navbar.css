@@ -1,0 +1,55 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    padding: 30px 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar.scrolled {
+    background-color: #c59a2ddc;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(197, 155, 45, 0.2);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar.scrolled ul {
+    gap: 80px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    font-size: 1.6em;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navbar.scrolled a {
+    font-size: 1.7em;
+    /* color: #000; */
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+    color: #FFF;
+}
