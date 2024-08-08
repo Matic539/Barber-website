@@ -1,6 +1,6 @@
 .services-container {
     padding: 3rem 0;
-    background-color: #f7f7f7;
+    background-color: #111;
     text-align: center;
 }
 
@@ -8,7 +8,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
-    color: #333;
+    color: #d4af37;
 }
 
 .service-list {
@@ -18,7 +18,7 @@
 }
 
 .service-item {
-    background-color: white;
+    background-color: #222;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -38,12 +38,12 @@
 .service-item h3 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #333;
+    color: #d4af37;
     margin-top: 1rem;
 }
 
 .service-item p {
-    color: #555;
+    color: #faf9ec;
     font-size: 1rem;
     padding: 0 1rem 1rem;
 }
